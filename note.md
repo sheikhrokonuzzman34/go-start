@@ -62,3 +62,27 @@ fmt.Println(len(myslice), cap(myslice)) // 5 8 (capacity doubled)
 6 6
 7 12
 ```
+
+```go
+func main() {
+  temperature := 14
+  if (temperature > 15) {
+    fmt.Println("It is warm out there")
+  } else {
+    fmt.Println("It is cold out there")
+  }
+}
+
+// right sentex
+
+func main() {
+  temperature := 14
+  if (temperature > 15) {
+    fmt.Println("It is warm out there")
+  } 
+  else {
+    fmt.Println("It is cold out there")
+  }
+}
+// worng sentex becose go line end bujle else oi statement buje na
+```
