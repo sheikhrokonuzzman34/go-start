@@ -86,3 +86,99 @@ func main() {
 }
 // worng sentex becose go line end bujle else oi statement buje na
 ```
+
+
+Learn
+
+pprof
+
+CPU vs memory profiling
+
+Allocation reduction
+
+Escape analysis basics
+
+Do
+
+Profile your API
+
+Optimize a slow endpoint
+
+Outcome
+
+You understand where performance actually comes from
+
+Week 10 – Runtime & Advanced Topics
+
+Learn
+
+Go scheduler (G-M-P model)
+
+Garbage collector behavior
+
+sync/atomic
+
+Struct memory layout
+
+Do
+
+Measure GC impact
+
+Fix false sharing issues
+
+Outcome
+
+You reason about Go under load
+
+Weeks 11–12: Production & Mastery
+Week 11 – Testing, Reliability & Security
+
+Learn
+
+Race detector (-race)
+
+Fuzz testing
+
+Secure coding practices
+
+TLS basics
+
+Do
+
+Add fuzz tests
+
+Run chaos tests
+
+Fix discovered issues
+
+Outcome
+
+Your code survives hostile conditions
+
+Week 12 – Capstone Project
+
+Build
+
+A production-grade Go service:
+
+REST or gRPC API
+
+Concurrency
+
+Tests
+
+Metrics & logging
+
+Graceful shutdown
+
+Deploy (Optional but Powerful)
+
+Dockerize it
+
+Add basic CI
+
+Deploy to a cloud VM or Kubernetes
+
+Outcome
+
+You have a portfolio-ready Go project
